@@ -1,0 +1,87 @@
+/* App.css */
+
+body {
+  background-color: #f9f9f9; /* Light gray for a subtle look, or use #ffffff for pure white */
+  color: #333; /* Dark gray text for readability */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Taskbar Styles */
+.taskbar {
+  position: fixed;
+  top: 0;
+  background-color: #ffffff; /* White background for taskbar */
+  border-bottom: 1px solid #ccc; /* Subtle border to differentiate */
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: max-content;
+}
+
+.taskbar ul {
+  
+  justify-content: space-evenly;
+  
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 95px;
+}
+
+.taskbar li {
+  display: inline;
+}
+
+.taskbar a {
+  text-decoration: none;
+  color: #007bff; /* Blue links */
+  font-weight: bold;
+}
+
+.taskbar a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+/* Page container styles */
+.page-container {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+.primary-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: #0056b3;
+}
+
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #28a745; /* Green background for success */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.app-container {
+  justify-content: center;
+  align-items: center;
+}

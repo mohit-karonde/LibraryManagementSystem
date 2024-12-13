@@ -1,0 +1,92 @@
+/* LendingManagement.css */
+
+/* Container for LendingManagement */
+.lending-management-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lending-management-container h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Container */
+  .lending-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .lending-form-container input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .lending-form-container button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 2%;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  
+  .lending-form-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Message display */
+  .message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Lending Table */
+  .lending-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .lending-table th, .lending-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .lending-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .lending-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .lending-table .delete-button {
+    padding: 6px 12px;
+    background-color: #e57373;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .lending-table .delete-button:hover {
+    background-color: #e53935;
+  }
+  
